@@ -53,11 +53,10 @@ namespace Connect2Dynamics365Online
         {
             IOrganizationService organizationService = null;
 
-            String username = "SHAHZAIBALI@SHAHZAIBSAFDAR1.onmicrosoft.com";
-            String password = "safdar786ALI!";
+            String username = "username";
+            String password = "PASSWORD";
 
-            String url = "https://org666f01ac.crm.dynamics.com/main.aspx?app=d365default&forceUCI=1&pagetype=dashboard&id=2701de60-8f2a-48a4-8262-4a35ca7441fa&type=system&_canOverride=true";
-            try
+            String url = "https://organization.address
             {
                 ClientCredentials clientCredentials = new ClientCredentials();
                 clientCredentials.UserName.UserName = username;
